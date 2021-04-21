@@ -6,7 +6,7 @@ import {contaRouter} from './routes/contaRouter.js';
   try {
     await mongoose.connect(
       
-      'mongodb+srv://charles_magalhaes:di2jyPW99Lf_QiX@cluster0.b7pe3.mongodb.net/bancoNubank?retryWrites=true&w=majority',
+      'colocar aqui a url de conexão do MongoDB',
          { 
            useNewUrlParser: true, 
            useUnifiedTopology: true 
